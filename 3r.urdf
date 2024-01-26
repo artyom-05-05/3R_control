@@ -34,7 +34,7 @@
       <inertial>
         <origin xyz="0 0 0.5"/>
         <mass value="1.0"/>
-        <inertia ixx="0.083" ixy="0.0" ixz="0.0" iyy="0.083" iyz="0.0" izz="0.044"/>
+        <inertia ixx="0.05" ixy="0.0" ixz="0.0" iyy="0.05" iyz="0.0" izz="0.025"/>
       </inertial>
   </link>
 
@@ -47,7 +47,6 @@
   </joint>
 
   <link name="link_2">
-      <mass value="10"/>
       <visual>
           <origin xyz="0 0 0.5" rpy="0 0 0" />
           <geometry>
@@ -58,7 +57,7 @@
       <inertial>
         <origin xyz="0 0 0.5"/>
         <mass value="1.0"/>
-        <inertia ixx="0.083" ixy="0.0" ixz="0.0" iyy="0.083" iyz="0.0" izz="0.044"/>
+        <inertia ixx="0.05" ixy="0.0" ixz="0.0" iyy="0.05" iyz="0.0" izz="0.025"/>
       </inertial>    
   </link>
 
@@ -71,7 +70,6 @@
   </joint>
 
   <link name="link_3">
-      <mass value="10"/>
       <visual>
           <origin xyz="0 0 0.5" rpy="0 0 0" />
             <geometry>
@@ -82,7 +80,7 @@
       <inertial>
         <origin xyz="0 0 0.5"/>
         <mass value="1.0"/>
-        <inertia ixx="0.083" ixy="0.0" ixz="0.0" iyy="0.083" iyz="0.0" izz="0.044"/>
+        <inertia ixx="0.05" ixy="0.0" ixz="0.0" iyy="0.05" iyz="0.0" izz="0.025"/>
       </inertial>
   </link>
 
